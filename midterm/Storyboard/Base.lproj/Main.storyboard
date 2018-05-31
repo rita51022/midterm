@@ -12,14 +12,14 @@
         <array key="HanaMinA.ttf">
             <string>HanaMinA</string>
         </array>
+        <array key="Kaiso-Next-B.otf">
+            <string>Kaiso-Next-B</string>
+        </array>
         <array key="Mamelon.otf">
             <string>Mamelon</string>
         </array>
         <array key="NotoSansCJKtc-DemiLight.otf">
             <string>NotoSansCJKtc-DemiLight</string>
-        </array>
-        <array key="setofont.ttf">
-            <string>SetoFont</string>
         </array>
     </customFonts>
     <scenes>
@@ -233,7 +233,7 @@
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="0MB-gh-UgY"/>
                                                 <constraint firstAttribute="height" constant="25" id="VrU-b1-cC4"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" name="Mamelon" family="Mamelon" pointSize="13"/>
+                                            <fontDescription key="fontDescription" name="Kaiso-Next-B" family="Kaiso" pointSize="13"/>
                                             <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                             <userDefinedRuntimeAttributes>
@@ -293,7 +293,7 @@
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcz-Bh-q34" userLabel="OriginLocation Label">
                                                             <rect key="frame" x="30" y="7.5" width="317" height="17"/>
-                                                            <fontDescription key="fontDescription" name="SetoFont" family="SetoFont" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" name="Mamelon" family="Mamelon" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -332,7 +332,7 @@
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAu-DJ-S2V" userLabel="Taiwanlocation Label">
                                                             <rect key="frame" x="30" y="7.5" width="317" height="17"/>
-                                                            <fontDescription key="fontDescription" name="SetoFont" family="SetoFont" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" name="Mamelon" family="Mamelon" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
