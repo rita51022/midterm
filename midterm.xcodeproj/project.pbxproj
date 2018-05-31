@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0814D56C20BE8F4D0015663E /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0814D56B20BE8F4D0015663E /* Plant.swift */; };
+		0814D57620BEDE0B0015663E /* HanaMinA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0814D57520BEDDE30015663E /* HanaMinA.ttf */; };
+		0814D57720BEDE120015663E /* HanaMinB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0814D57420BEDDE20015663E /* HanaMinB.ttf */; };
+		0814D57820BEDE170015663E /* Kaiso-Next-B.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0814D57320BEDDCD0015663E /* Kaiso-Next-B.otf */; };
 		082117A0209AE94700D2307D /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0821179F209AE94700D2307D /* MainPageViewController.swift */; };
 		082117B0209B137000D2307D /* PlantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082117AF209B137000D2307D /* PlantTableViewController.swift */; };
 		082117B2209B13AC00D2307D /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082117B1209B13AC00D2307D /* PlantTableViewCell.swift */; };
 		082117B4209B24B500D2307D /* PlantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082117B3209B24B500D2307D /* PlantDetailViewController.swift */; };
+		0835A61320BF029900E80C5B /* PlantDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835A61220BF029900E80C5B /* PlantDetailHeaderView.swift */; };
+		0835A61520BF0CE700E80C5B /* PlantDetailIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835A61420BF0CE700E80C5B /* PlantDetailIconTextCell.swift */; };
+		0835A61B20BF1BCD00E80C5B /* PlantDescriptionTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835A61A20BF1BCD00E80C5B /* PlantDescriptionTextCell.swift */; };
+		0835A61D20BF872C00E80C5B /* PlantDetailTaiwanIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835A61C20BF872C00E80C5B /* PlantDetailTaiwanIconTextCell.swift */; };
 		08B96CB6209AB1BF00233033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B96CB5209AB1BF00233033 /* AppDelegate.swift */; };
 		08B96CBB209AB1BF00233033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B96CB9209AB1BF00233033 /* Main.storyboard */; };
 		08B96CBD209AB1C400233033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B96CBC209AB1C400233033 /* Assets.xcassets */; };
@@ -29,10 +37,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080144FB20BF90C800DC9F42 /* \202\265\202\347\202\263\202\254\226{\212\333\203S\203V\203b\203NMini.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "\\202\\265\\202\\347\\202\\263\\202\\254\\226{\\212\\333\\203S\\203V\\203b\\203NMini.otf"; sourceTree = "<group>"; };
+		0814D56B20BE8F4D0015663E /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		0814D57320BEDDCD0015663E /* Kaiso-Next-B.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kaiso-Next-B.otf"; sourceTree = "<group>"; };
+		0814D57420BEDDE20015663E /* HanaMinB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HanaMinB.ttf; sourceTree = "<group>"; };
+		0814D57520BEDDE30015663E /* HanaMinA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HanaMinA.ttf; sourceTree = "<group>"; };
+		0814D57B20BEEB080015663E /* Mamelon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mamelon.otf; sourceTree = "<group>"; };
+		0814D57E20BEEB1E0015663E /* NotoSansCJKtc-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Bold.otf"; sourceTree = "<group>"; };
+		0814D57F20BEEB1F0015663E /* NotoSansMonoCJKtc-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMonoCJKtc-Bold.otf"; sourceTree = "<group>"; };
+		0814D58020BEEB200015663E /* NotoSansCJKtc-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Black.otf"; sourceTree = "<group>"; };
+		0814D58120BEEB220015663E /* NotoSansCJKtc-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Light.otf"; sourceTree = "<group>"; };
+		0814D58220BEEB230015663E /* NotoSansCJKtc-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Regular.otf"; sourceTree = "<group>"; };
+		0814D58320BEEB240015663E /* NotoSansMonoCJKtc-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMonoCJKtc-Regular.otf"; sourceTree = "<group>"; };
+		0814D58420BEEB250015663E /* NotoSansCJKtc-DemiLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-DemiLight.otf"; sourceTree = "<group>"; };
+		0814D58520BEEB260015663E /* NotoSansCJKtc-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Medium.otf"; sourceTree = "<group>"; };
+		0814D58620BEEB270015663E /* NotoSansCJKtc-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Thin.otf"; sourceTree = "<group>"; };
 		0821179F209AE94700D2307D /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		082117AF209B137000D2307D /* PlantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewController.swift; sourceTree = "<group>"; };
 		082117B1209B13AC00D2307D /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
 		082117B3209B24B500D2307D /* PlantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailViewController.swift; sourceTree = "<group>"; };
+		0835A61220BF029900E80C5B /* PlantDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailHeaderView.swift; sourceTree = "<group>"; };
+		0835A61420BF0CE700E80C5B /* PlantDetailIconTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailIconTextCell.swift; sourceTree = "<group>"; };
+		0835A61A20BF1BCD00E80C5B /* PlantDescriptionTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDescriptionTextCell.swift; sourceTree = "<group>"; };
+		0835A61C20BF872C00E80C5B /* PlantDetailTaiwanIconTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailTaiwanIconTextCell.swift; sourceTree = "<group>"; };
 		08B96CB2209AB1BF00233033 /* midterm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = midterm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B96CB5209AB1BF00233033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08B96CBA209AB1BF00233033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +69,7 @@
 		08B96CC6209AB1C400233033 /* midtermUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = midtermUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B96CCA209AB1C400233033 /* midtermUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midtermUITests.swift; sourceTree = "<group>"; };
 		08B96CCC209AB1C400233033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E3447720BFCD9000E1CAF1 /* setofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = setofont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +90,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0814D56D20BEDB960015663E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0814D57220BEDDBA0015663E /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0814D56E20BEDBC70015663E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				08B96CB9209AB1BF00233033 /* Main.storyboard */,
+				08B96CBE209AB1C400233033 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0814D56F20BEDBDC0015663E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0821179F209AE94700D2307D /* MainPageViewController.swift */,
+				082117AF209B137000D2307D /* PlantTableViewController.swift */,
+				082117B3209B24B500D2307D /* PlantDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0814D57020BEDBF60015663E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0814D56B20BE8F4D0015663E /* Plant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0814D57120BEDC230015663E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				082117B1209B13AC00D2307D /* PlantTableViewCell.swift */,
+				0835A61220BF029900E80C5B /* PlantDetailHeaderView.swift */,
+				0835A61420BF0CE700E80C5B /* PlantDetailIconTextCell.swift */,
+				0835A61A20BF1BCD00E80C5B /* PlantDescriptionTextCell.swift */,
+				0835A61C20BF872C00E80C5B /* PlantDetailTaiwanIconTextCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0814D57220BEDDBA0015663E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				08E3447720BFCD9000E1CAF1 /* setofont.ttf */,
+				080144FB20BF90C800DC9F42 /* \202\265\202\347\202\263\202\254\226{\212\333\203S\203V\203b\203NMini.otf */,
+				0814D57B20BEEB080015663E /* Mamelon.otf */,
+				0814D57520BEDDE30015663E /* HanaMinA.ttf */,
+				0814D57420BEDDE20015663E /* HanaMinB.ttf */,
+				0814D57320BEDDCD0015663E /* Kaiso-Next-B.otf */,
+				0814D58020BEEB200015663E /* NotoSansCJKtc-Black.otf */,
+				0814D57E20BEEB1E0015663E /* NotoSansCJKtc-Bold.otf */,
+				0814D58420BEEB250015663E /* NotoSansCJKtc-DemiLight.otf */,
+				0814D58120BEEB220015663E /* NotoSansCJKtc-Light.otf */,
+				0814D58520BEEB260015663E /* NotoSansCJKtc-Medium.otf */,
+				0814D58220BEEB230015663E /* NotoSansCJKtc-Regular.otf */,
+				0814D57F20BEEB1F0015663E /* NotoSansMonoCJKtc-Bold.otf */,
+				0814D58620BEEB270015663E /* NotoSansCJKtc-Thin.otf */,
+				0814D58320BEEB240015663E /* NotoSansMonoCJKtc-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		08B96CA9209AB1BF00233033 = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +180,14 @@
 		08B96CB4209AB1BF00233033 /* midterm */ = {
 			isa = PBXGroup;
 			children = (
+				0814D56D20BEDB960015663E /* Resources */,
+				0814D57120BEDC230015663E /* View */,
+				0814D57020BEDBF60015663E /* Model */,
+				0814D56F20BEDBDC0015663E /* Controller */,
+				0814D56E20BEDBC70015663E /* Storyboard */,
 				08B96CB5209AB1BF00233033 /* AppDelegate.swift */,
-				08B96CB9209AB1BF00233033 /* Main.storyboard */,
 				08B96CBC209AB1C400233033 /* Assets.xcassets */,
-				08B96CBE209AB1C400233033 /* LaunchScreen.storyboard */,
 				08B96CC1209AB1C400233033 /* Info.plist */,
-				0821179F209AE94700D2307D /* MainPageViewController.swift */,
-				082117AF209B137000D2307D /* PlantTableViewController.swift */,
-				082117B3209B24B500D2307D /* PlantDetailViewController.swift */,
-				082117B1209B13AC00D2307D /* PlantTableViewCell.swift */,
 			);
 			path = midterm;
 			sourceTree = "<group>";
@@ -187,8 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				08B96CC0209AB1C400233033 /* LaunchScreen.storyboard in Resources */,
+				0814D57720BEDE120015663E /* HanaMinB.ttf in Resources */,
+				0814D57620BEDE0B0015663E /* HanaMinA.ttf in Resources */,
 				08B96CBD209AB1C400233033 /* Assets.xcassets in Resources */,
 				08B96CBB209AB1BF00233033 /* Main.storyboard in Resources */,
+				0814D57820BEDE170015663E /* Kaiso-Next-B.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,9 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0835A61D20BF872C00E80C5B /* PlantDetailTaiwanIconTextCell.swift in Sources */,
+				0835A61520BF0CE700E80C5B /* PlantDetailIconTextCell.swift in Sources */,
 				082117A0209AE94700D2307D /* MainPageViewController.swift in Sources */,
+				0814D56C20BE8F4D0015663E /* Plant.swift in Sources */,
 				082117B2209B13AC00D2307D /* PlantTableViewCell.swift in Sources */,
 				08B96CB6209AB1BF00233033 /* AppDelegate.swift in Sources */,
+				0835A61B20BF1BCD00E80C5B /* PlantDescriptionTextCell.swift in Sources */,
+				0835A61320BF029900E80C5B /* PlantDetailHeaderView.swift in Sources */,
 				082117B4209B24B500D2307D /* PlantDetailViewController.swift in Sources */,
 				082117B0209B137000D2307D /* PlantTableViewController.swift in Sources */,
 			);

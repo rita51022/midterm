@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HX1-lO-0mv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HanaMinA.ttf">
+            <string>HanaMinA</string>
+        </array>
+        <array key="Mamelon.otf">
+            <string>Mamelon</string>
+        </array>
+        <array key="NotoSansCJKtc-DemiLight.otf">
+            <string>NotoSansCJKtc-DemiLight</string>
+        </array>
+        <array key="setofont.ttf">
+            <string>SetoFont</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--MainPageView Controller-->
+        <scene sceneID="gWp-L8-sle">
+            <objects>
+                <viewController id="Rbq-x7-Vkg" userLabel="MainPageView Controller" customClass="MainPageViewController" customModule="midterm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZtC-hz-vug">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="kuv-By-JHp">
+                                <rect key="frame" x="42.5" y="220.5" width="290" height="290"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="pGd-ij-Imb">
+                                        <rect key="frame" x="0.0" y="0.0" width="290" height="120"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Csr-ZT-c3b">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="0" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrE-Hm-LOd">
+                                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="120" id="0mN-M3-bbf"/>
+                                                            <constraint firstAttribute="width" constant="120" id="Tmg-eq-xYx"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                        <state key="normal" title="玄參科" backgroundImage="毛地黃"/>
+                                                        <connections>
+                                                            <action selector="showPlantTable:" destination="Rbq-x7-Vkg" eventType="touchUpInside" id="ikF-gO-eKu"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Xbn-An-YCS">
+                                                <rect key="frame" x="170" y="0.0" width="120" height="120"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffv-Ik-kyE">
+                                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="120" id="Ruq-Wj-mkh"/>
+                                                            <constraint firstAttribute="width" constant="120" id="zjo-zM-7dq"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                        <state key="normal" title="茜草科" backgroundImage="羊角藤"/>
+                                                        <connections>
+                                                            <action selector="showPlantTable:" destination="Rbq-x7-Vkg" eventType="touchUpInside" id="hnr-V5-ADW"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="BnY-1i-UxL">
+                                        <rect key="frame" x="0.0" y="170" width="290" height="120"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tVj-YN-Bdd">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="2" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dht-hN-aB3">
+                                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="120" id="MvR-xM-9p5"/>
+                                                            <constraint firstAttribute="height" constant="120" id="quF-n9-1fX"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                        <state key="normal" title="菊科" backgroundImage="小米菊"/>
+                                                        <connections>
+                                                            <action selector="showPlantTable:" destination="Rbq-x7-Vkg" eventType="touchUpInside" id="yaC-Gs-NAN"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MbC-kF-E95">
+                                                <rect key="frame" x="170" y="0.0" width="120" height="120"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="3" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zkq-S5-hm6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="120" id="ObU-UW-dN4"/>
+                                                            <constraint firstAttribute="width" constant="120" id="bVZ-SX-Rfb"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                        <state key="normal" title="薔薇科" backgroundImage="山薔薇"/>
+                                                        <connections>
+                                                            <action selector="showPlantTable:" destination="Rbq-x7-Vkg" eventType="touchUpInside" id="11e-6Q-91T"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kuv-By-JHp" firstAttribute="centerY" secondItem="yJN-eC-7dJ" secondAttribute="centerY" id="0kp-3C-85u"/>
+                            <constraint firstItem="kuv-By-JHp" firstAttribute="centerX" secondItem="yJN-eC-7dJ" secondAttribute="centerX" id="WAC-ro-sE5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yJN-eC-7dJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="台灣野外植物分類" id="aey-39-SJc"/>
+                    <connections>
+                        <outlet property="plant1Button" destination="KrE-Hm-LOd" id="uPu-r1-MJe"/>
+                        <outlet property="plant2Button" destination="ffv-Ik-kyE" id="XzX-G8-c71"/>
+                        <outlet property="plant3Button" destination="Dht-hN-aB3" id="0vI-3c-Drt"/>
+                        <outlet property="plant4Button" destination="Zkq-S5-hm6" id="HIN-ya-vzX"/>
+                        <segue destination="Oro-fV-KCh" kind="show" identifier="showPlantTable" id="5HT-ja-1KS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="la2-B3-c3D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="773.60000000000002" y="-30.134932533733135"/>
+        </scene>
+        <!--Plant Table View Controller-->
+        <scene sceneID="9ac-JC-2uV">
+            <objects>
+                <tableViewController id="Oro-fV-KCh" userLabel="Plant Table View Controller" customClass="PlantTableViewController" customModule="midterm" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xoJ-gA-o1F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="150" id="tEa-33-P4X" customClass="PlantTableViewCell" customModule="midterm" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tEa-33-P4X" id="BJg-Uc-1sl">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EMg-uC-itT">
+                                            <rect key="frame" x="10" y="24" width="183.5" height="100"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xDg-Mj-CVX">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="100" id="N5Y-9Y-wYb"/>
+                                                        <constraint firstAttribute="width" constant="100" id="UKr-hx-iUP"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MRX-gl-oZ0">
+                                                    <rect key="frame" x="120" y="31.5" width="63.5" height="37"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R97-zV-Cc2">
+                                                            <rect key="frame" x="0.0" y="0.0" width="63.5" height="37"/>
+                                                            <fontDescription key="fontDescription" name="NotoSansCJKtc-DemiLight" family="Noto Sans CJK TC" pointSize="25"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="EMg-uC-itT" firstAttribute="leading" secondItem="BJg-Uc-1sl" secondAttribute="leading" constant="10" id="FNF-w9-xkX"/>
+                                        <constraint firstAttribute="bottom" secondItem="EMg-uC-itT" secondAttribute="bottom" constant="25.5" id="HkI-lt-kxz"/>
+                                        <constraint firstItem="EMg-uC-itT" firstAttribute="top" secondItem="BJg-Uc-1sl" secondAttribute="top" constant="24" id="ykS-Vj-CFb"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="plantimage" destination="xDg-Mj-CVX" id="EIu-Uo-PnP"/>
+                                    <outlet property="plantlabel" destination="R97-zV-Cc2" id="vq6-rC-czX"/>
+                                    <segue destination="XqD-W4-iGF" kind="show" identifier="showPlantDetail" id="9vA-Uh-RtK"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Oro-fV-KCh" id="sJC-jc-UqW"/>
+                            <outlet property="delegate" destination="Oro-fV-KCh" id="TNL-e8-DAI"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rvS-Fn-sjC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1544.8" y="-31.03448275862069"/>
+        </scene>
+        <!--Plant Detail View Controller-->
+        <scene sceneID="Upc-rH-lwa">
+            <objects>
+                <viewController id="XqD-W4-iGF" userLabel="Plant Detail View Controller" customClass="PlantDetailViewController" customModule="midterm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KtO-Ea-R1F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qE0-LP-YFt">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="e83-RP-TfM" userLabel="Header View" customClass="PlantDetailHeaderView" customModule="midterm" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="350"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jkw-73-Oat" userLabel="Header Image View">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="350"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="375" id="SLC-sh-La9"/>
+                                                <constraint firstAttribute="height" constant="350" id="Vgj-Te-ZIY"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c84-Pp-ifT" userLabel="Common name Label">
+                                            <rect key="frame" x="14" y="256.5" width="100" height="51.5"/>
+                                            <fontDescription key="fontDescription" name="HanaMinA" family="HanaMinA" pointSize="40"/>
+                                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eam-MF-ixF" userLabel="Scientific name Label">
+                                            <rect key="frame" x="14" y="311" width="200" height="25"/>
+                                            <color key="backgroundColor" red="0.83369685913705582" green="0.12471338919069294" blue="0.0072029603856914141" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="0MB-gh-UgY"/>
+                                                <constraint firstAttribute="height" constant="25" id="VrU-b1-cC4"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Mamelon" family="Mamelon" pointSize="13"/>
+                                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                        <view alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KIQ-nA-G3M">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="350"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="350" id="RKt-YR-bTM"/>
+                                                <constraint firstAttribute="width" constant="375" id="rt2-rK-SKn"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="jkw-73-Oat" firstAttribute="top" secondItem="e83-RP-TfM" secondAttribute="top" id="3pY-MV-Tkc"/>
+                                        <constraint firstAttribute="bottom" secondItem="jkw-73-Oat" secondAttribute="bottom" id="4F4-vD-c0X"/>
+                                        <constraint firstAttribute="bottom" secondItem="KIQ-nA-G3M" secondAttribute="bottom" id="5o4-k6-9NM"/>
+                                        <constraint firstItem="eam-MF-ixF" firstAttribute="top" secondItem="c84-Pp-ifT" secondAttribute="bottom" constant="3" id="7CN-pH-qWr"/>
+                                        <constraint firstItem="eam-MF-ixF" firstAttribute="leading" secondItem="c84-Pp-ifT" secondAttribute="leading" id="CtP-iA-gR3"/>
+                                        <constraint firstAttribute="trailing" secondItem="KIQ-nA-G3M" secondAttribute="trailing" id="GI4-cu-OEa"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="c84-Pp-ifT" secondAttribute="trailing" constant="50" id="Po3-Fl-oLx"/>
+                                        <constraint firstAttribute="trailing" secondItem="jkw-73-Oat" secondAttribute="trailing" id="RTp-4p-fWV"/>
+                                        <constraint firstItem="KIQ-nA-G3M" firstAttribute="top" secondItem="e83-RP-TfM" secondAttribute="top" id="Ruy-I4-yBI"/>
+                                        <constraint firstItem="jkw-73-Oat" firstAttribute="leading" secondItem="e83-RP-TfM" secondAttribute="leading" id="XpF-BL-n5c"/>
+                                        <constraint firstItem="eam-MF-ixF" firstAttribute="leading" secondItem="e83-RP-TfM" secondAttribute="leading" constant="14" id="YTP-TR-PcP"/>
+                                        <constraint firstItem="KIQ-nA-G3M" firstAttribute="leading" secondItem="e83-RP-TfM" secondAttribute="leading" id="oWr-h3-1hD"/>
+                                        <constraint firstAttribute="bottom" secondItem="eam-MF-ixF" secondAttribute="bottom" constant="14" id="sfi-df-fIp"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="commonnameLabel" destination="c84-Pp-ifT" id="Vra-8a-lY6"/>
+                                        <outlet property="headerImageView" destination="jkw-73-Oat" id="5Ss-pL-zEu"/>
+                                        <outlet property="scientificnameLabel" destination="eam-MF-ixF" id="g1O-id-iEp"/>
+                                    </connections>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PlantDetailIconTextCell" id="jGl-3o-w89" customClass="PlantDetailIconTextCell" customModule="midterm" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="378" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jGl-3o-w89" id="jpc-Es-nBV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sba-ai-9dR">
+                                                    <rect key="frame" x="14" y="12" width="347" height="31.5"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jan-k8-Qd2" userLabel="Originlocation Icon Image View">
+                                                            <rect key="frame" x="0.0" y="6" width="20" height="20"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="20" id="0x2-py-5on"/>
+                                                                <constraint firstAttribute="height" constant="20" id="jm6-BC-lpD"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcz-Bh-q34" userLabel="OriginLocation Label">
+                                                            <rect key="frame" x="30" y="7.5" width="317" height="17"/>
+                                                            <fontDescription key="fontDescription" name="SetoFont" family="SetoFont" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="sba-ai-9dR" secondAttribute="trailing" constant="14" id="GJU-hW-YDV"/>
+                                                <constraint firstItem="sba-ai-9dR" firstAttribute="top" secondItem="jpc-Es-nBV" secondAttribute="top" constant="12" id="T7q-FC-TUG"/>
+                                                <constraint firstItem="sba-ai-9dR" firstAttribute="leading" secondItem="jpc-Es-nBV" secondAttribute="leading" constant="14" id="teM-SV-AjN"/>
+                                                <constraint firstAttribute="bottom" secondItem="sba-ai-9dR" secondAttribute="bottom" id="x9e-gX-Buq"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="originlocationLabel" destination="hcz-Bh-q34" id="1nE-Hd-DRw"/>
+                                            <outlet property="originlocationiconImageView" destination="Jan-k8-Qd2" id="GMF-Ns-ThZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PlantDetailTaiwanlconTextCell" id="Tp3-QQ-DDc" customClass="PlantDetailTaiwanlconTextCell" customModule="midterm" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="422" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Tp3-QQ-DDc" id="o5n-9I-cHG">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xNR-nT-1lM">
+                                                    <rect key="frame" x="14" y="12" width="347" height="31.5"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bfl-7y-5Gq" userLabel="Taiwanlocation Image View">
+                                                            <rect key="frame" x="0.0" y="6" width="20" height="20"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="20" id="7NI-6I-u5w"/>
+                                                                <constraint firstAttribute="height" constant="20" id="lvo-K1-5vC"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAu-DJ-S2V" userLabel="Taiwanlocation Label">
+                                                            <rect key="frame" x="30" y="7.5" width="317" height="17"/>
+                                                            <fontDescription key="fontDescription" name="SetoFont" family="SetoFont" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.92156862745098034" blue="0.80392156862745101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="xNR-nT-1lM" secondAttribute="trailing" constant="14" id="5IN-H1-nDq"/>
+                                                <constraint firstAttribute="bottom" secondItem="xNR-nT-1lM" secondAttribute="bottom" id="6ut-Os-2fj"/>
+                                                <constraint firstItem="xNR-nT-1lM" firstAttribute="leading" secondItem="o5n-9I-cHG" secondAttribute="leading" constant="14" id="QM8-wW-0nd"/>
+                                                <constraint firstItem="xNR-nT-1lM" firstAttribute="top" secondItem="o5n-9I-cHG" secondAttribute="top" constant="12" id="ktV-tl-p3C"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="taiwanimageview" destination="bfl-7y-5Gq" id="0G8-vi-7AM"/>
+                                            <outlet property="taiwanlocationlabel" destination="PAu-DJ-S2V" id="ZSf-LV-Ife"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PlantDescriptionTextCell" id="24b-X9-RUt" userLabel="PlantDescriptionTextCell" customClass="PlantDescriptionTextCell" customModule="midterm" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="466" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="24b-X9-RUt" id="sES-hI-xGF">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hf4-Ra-vW6" userLabel="Description Label">
+                                                    <rect key="frame" x="16" y="12" width="343" height="32"/>
+                                                    <fontDescription key="fontDescription" name="NotoSansCJKtc-DemiLight" family="Noto Sans CJK TC" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="Hf4-Ra-vW6" secondAttribute="trailing" constant="16" id="OZS-Nn-GI0"/>
+                                                <constraint firstItem="Hf4-Ra-vW6" firstAttribute="leading" secondItem="sES-hI-xGF" secondAttribute="leading" constant="16" id="Ovn-Zq-Dlf"/>
+                                                <constraint firstItem="Hf4-Ra-vW6" firstAttribute="top" secondItem="sES-hI-xGF" secondAttribute="top" constant="12" id="rEN-9G-gXX"/>
+                                                <constraint firstAttribute="bottom" secondItem="Hf4-Ra-vW6" secondAttribute="bottom" id="xv9-ht-5F5"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="Hf4-Ra-vW6" id="oKV-pc-Vzd"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="XqD-W4-iGF" id="aW6-ZN-8n7"/>
+                                    <outlet property="delegate" destination="XqD-W4-iGF" id="00e-8O-RVd"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qE0-LP-YFt" firstAttribute="top" secondItem="fJw-eH-ANF" secondAttribute="top" id="A7v-Pb-Nae"/>
+                            <constraint firstItem="fJw-eH-ANF" firstAttribute="trailing" secondItem="qE0-LP-YFt" secondAttribute="trailing" id="Oa6-an-rl5"/>
+                            <constraint firstItem="fJw-eH-ANF" firstAttribute="bottom" secondItem="qE0-LP-YFt" secondAttribute="bottom" id="rjq-mm-6vh"/>
+                            <constraint firstItem="qE0-LP-YFt" firstAttribute="leading" secondItem="fJw-eH-ANF" secondAttribute="leading" id="ul7-F7-laq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fJw-eH-ANF"/>
+                    </view>
+                    <connections>
+                        <outlet property="headerview" destination="e83-RP-TfM" id="J2V-ed-uDB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i0D-59-rZS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2261.5999999999999" y="-30.134932533733135"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="26N-CK-OZA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HX1-lO-0mv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1cl-d5-u25">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Rbq-x7-Vkg" kind="relationship" relationship="rootViewController" id="2Xh-Po-LWc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hAZ-se-UpS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-165.59999999999999" y="-30.134932533733135"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="小米菊" width="1600" height="1066"/>
+        <image name="山薔薇" width="1600" height="1066"/>
+        <image name="毛地黃" width="1066" height="1600"/>
+        <image name="羊角藤" width="1600" height="1066"/>
+    </resources>
+</document>
