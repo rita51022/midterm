@@ -6,7 +6,7 @@
 ### 簡介
 
 <p align="center">
-  <img src="https://i.imgur.com/bfsv4uH.gifv"/>
+  <img src="https://i.imgur.com/bfsv4uH.gif/>
 </p>
 
 #### 一個關於台灣植物的App，分四個科別，而各科別有四至六種植物。在每種植物裡有詳細的介紹，且標示發現的地點。
