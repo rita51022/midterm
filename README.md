@@ -3,7 +3,7 @@
 ## 台灣植物圖鑑
 1st version
 
-<img src="https://i.imgur.com/bfsv4uH.gif" />
+![](https://i.imgur.com/bfsv4uH.gif)
   
 ### 簡介
 
