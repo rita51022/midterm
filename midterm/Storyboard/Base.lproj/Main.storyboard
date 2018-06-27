@@ -122,7 +122,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yJN-eC-7dJ"/>
                     </view>
-                    <navigationItem key="navigationItem" title="台灣野外植物圖鑑" id="aey-39-SJc"/>
+                    <navigationItem key="navigationItem" title="台灣野外植物wj6ru04" id="aey-39-SJc"/>
                     <connections>
                         <outlet property="plant1Button" destination="KrE-Hm-LOd" id="uPu-r1-MJe"/>
                         <outlet property="plant2Button" destination="ffv-Ik-kyE" id="XzX-G8-c71"/>
