@@ -26,9 +26,6 @@ class PlantDetailMapCell: UITableViewCell {
     func configure(plantlatitude: Double, plantlongitude: Double){
         let objectAnnotation = MKPointAnnotation()
         objectAnnotation.coordinate = CLLocation(latitude: CLLocationDegrees(plantlatitude), longitude: CLLocationDegrees(plantlongitude)).coordinate
-//        objectAnnotation.title = "艋舺公園"
-//        objectAnnotation.subtitle =
-//        "艋舺公園位於龍山寺旁邊，原名為「萬華十二號公園」。"
         self.mapView.addAnnotation(objectAnnotation)
         let region = MKCoordinateRegionMakeWithDistance(objectAnnotation.coordinate, 250, 250)
         self.mapView.setRegion(region, animated: false)

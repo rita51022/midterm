@@ -31,7 +31,7 @@ class PlantDetailViewController: UIViewController, UITableViewDataSource, UITabl
             return cell
         case 3:
              let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: PlantDetailSeparatorCell.self), for: indexPath)as!PlantDetailSeparatorCell
-             cell.titleLabel.text = "植物位置"
+             cell.titleLabel.text = "Ｈow To Find"
              return cell
         case 4:
              let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: PlantDetailMapCell.self), for: indexPath)as!PlantDetailMapCell

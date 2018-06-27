@@ -383,16 +383,16 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="N1t-Fa-EIY">
-                                                    <rect key="frame" x="16" y="11" width="343" height="30"/>
+                                                    <rect key="frame" x="16" y="13" width="343" height="28"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subsection Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERw-Yd-rUF">
-                                                            <rect key="frame" x="0.0" y="0.0" width="343" height="26"/>
-                                                            <fontDescription key="fontDescription" name="HanaMinA" family="HanaMinA" pointSize="24"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="343" height="24"/>
+                                                            <fontDescription key="fontDescription" name="Mamelon" family="Mamelon" pointSize="24"/>
                                                             <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JH3-8n-BrT" userLabel="Separator">
-                                                            <rect key="frame" x="0.0" y="29" width="343" height="1"/>
+                                                            <rect key="frame" x="0.0" y="27" width="343" height="1"/>
                                                             <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="1" id="CIK-zu-L7U"/>
