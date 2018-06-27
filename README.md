@@ -2,8 +2,8 @@
 
 ## 台灣植物圖鑑
 1st version
-
-![](https://i.imgur.com/bfsv4uHs.gif)
+<p align="center">
+  <img src="https://i.imgur.com/bfsv4uH.gifv" width="750px" height="300px"/></p>
   
 ### 簡介
 
