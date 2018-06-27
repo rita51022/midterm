@@ -3,7 +3,7 @@
 ## 台灣植物圖鑑
 1st version
 
-![](https://i.imgur.com/bfsv4uH.gifv)
+![](https://i.imgur.com/bfsv4uHs.gif)
   
 ### 簡介
 
@@ -29,7 +29,3 @@
 點選植物種類就會進入到植物的詳細介紹
 
 ![](https://i.imgur.com/V0Kdfss.jpg)
-
-
-
-![](https://i.imgur.com/bfsv4uH.gifv)
