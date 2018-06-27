@@ -9,7 +9,7 @@
 
 運用Xcode實作，Swift語言撰寫。使用StoryBoard的物件，也開啟內建的地圖功能能夠標示出地理位置座標。
 
-自此App裡實現了
+此App裡實現了
 
   * multiple buttons with a single segue：傳遞資訊
   * class：儲存植物資訊
