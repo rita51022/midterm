@@ -19,6 +19,11 @@
 		0835A61520BF0CE700E80C5B /* PlantDetailIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835A61420BF0CE700E80C5B /* PlantDetailIconTextCell.swift */; };
 		0835A61B20BF1BCD00E80C5B /* PlantDescriptionTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835A61A20BF1BCD00E80C5B /* PlantDescriptionTextCell.swift */; };
 		0835A61D20BF872C00E80C5B /* PlantDetailTaiwanIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835A61C20BF872C00E80C5B /* PlantDetailTaiwanIconTextCell.swift */; };
+		088E15AF20DCF48200B1C497 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088E15AE20DCF48200B1C497 /* MapKit.framework */; };
+		088E15B520DCFF3100B1C497 /* PlantDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E15B420DCFF3100B1C497 /* PlantDetailSeparatorCell.swift */; };
+		088E15B720DCFFA200B1C497 /* PlantDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E15B620DCFFA200B1C497 /* PlantDetailMapCell.swift */; };
+		088E15B920DD347500B1C497 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088E15B820DD347500B1C497 /* AVFoundation.framework */; };
+		08B1713D20E2B464007E48D8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B1713C20E2B464007E48D8 /* MapViewController.swift */; };
 		08B96CB6209AB1BF00233033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B96CB5209AB1BF00233033 /* AppDelegate.swift */; };
 		08B96CBB209AB1BF00233033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B96CB9209AB1BF00233033 /* Main.storyboard */; };
 		08B96CBD209AB1C400233033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B96CBC209AB1C400233033 /* Assets.xcassets */; };
@@ -60,6 +65,11 @@
 		0835A61420BF0CE700E80C5B /* PlantDetailIconTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailIconTextCell.swift; sourceTree = "<group>"; };
 		0835A61A20BF1BCD00E80C5B /* PlantDescriptionTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDescriptionTextCell.swift; sourceTree = "<group>"; };
 		0835A61C20BF872C00E80C5B /* PlantDetailTaiwanIconTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailTaiwanIconTextCell.swift; sourceTree = "<group>"; };
+		088E15AE20DCF48200B1C497 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		088E15B420DCFF3100B1C497 /* PlantDetailSeparatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailSeparatorCell.swift; sourceTree = "<group>"; };
+		088E15B620DCFFA200B1C497 /* PlantDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailMapCell.swift; sourceTree = "<group>"; };
+		088E15B820DD347500B1C497 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		08B1713C20E2B464007E48D8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		08B96CB2209AB1BF00233033 /* midterm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = midterm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B96CB5209AB1BF00233033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08B96CBA209AB1BF00233033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088E15B920DD347500B1C497 /* AVFoundation.framework in Frameworks */,
+				088E15AF20DCF48200B1C497 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +125,7 @@
 				0821179F209AE94700D2307D /* MainPageViewController.swift */,
 				082117AF209B137000D2307D /* PlantTableViewController.swift */,
 				082117B3209B24B500D2307D /* PlantDetailViewController.swift */,
+				08B1713C20E2B464007E48D8 /* MapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -133,6 +146,8 @@
 				0835A61420BF0CE700E80C5B /* PlantDetailIconTextCell.swift */,
 				0835A61A20BF1BCD00E80C5B /* PlantDescriptionTextCell.swift */,
 				0835A61C20BF872C00E80C5B /* PlantDetailTaiwanIconTextCell.swift */,
+				088E15B420DCFF3100B1C497 /* PlantDetailSeparatorCell.swift */,
+				088E15B620DCFFA200B1C497 /* PlantDetailMapCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,12 +174,22 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		088E15AD20DCF48200B1C497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				088E15B820DD347500B1C497 /* AVFoundation.framework */,
+				088E15AE20DCF48200B1C497 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		08B96CA9209AB1BF00233033 = {
 			isa = PBXGroup;
 			children = (
 				08B96CB4209AB1BF00233033 /* midterm */,
 				08B96CC9209AB1C400233033 /* midtermUITests */,
 				08B96CB3209AB1BF00233033 /* Products */,
+				088E15AD20DCF48200B1C497 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,6 +276,11 @@
 				TargetAttributes = {
 					08B96CB1209AB1BF00233033 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					08B96CC5209AB1C400233033 = {
 						CreatedOnToolsVersion = 9.3;
@@ -308,9 +338,12 @@
 				0835A61D20BF872C00E80C5B /* PlantDetailTaiwanIconTextCell.swift in Sources */,
 				0835A61520BF0CE700E80C5B /* PlantDetailIconTextCell.swift in Sources */,
 				082117A0209AE94700D2307D /* MainPageViewController.swift in Sources */,
+				088E15B720DCFFA200B1C497 /* PlantDetailMapCell.swift in Sources */,
 				0814D56C20BE8F4D0015663E /* Plant.swift in Sources */,
 				082117B2209B13AC00D2307D /* PlantTableViewCell.swift in Sources */,
+				08B1713D20E2B464007E48D8 /* MapViewController.swift in Sources */,
 				08B96CB6209AB1BF00233033 /* AppDelegate.swift in Sources */,
+				088E15B520DCFF3100B1C497 /* PlantDetailSeparatorCell.swift in Sources */,
 				0835A61B20BF1BCD00E80C5B /* PlantDescriptionTextCell.swift in Sources */,
 				0835A61320BF029900E80C5B /* PlantDetailHeaderView.swift in Sources */,
 				082117B4209B24B500D2307D /* PlantDetailViewController.swift in Sources */,

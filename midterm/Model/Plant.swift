@@ -14,16 +14,20 @@ class Plant{
     var taiwanlocation : String
     var decription : String
     var image : String
+    var latitude : Double
+    var longtitude : Double
     
-    init (Commonname: String, Scientificname: String, originlocation: String, taiwanlocation:String, description: String, image: String){
+    init (Commonname: String, Scientificname: String, originlocation: String, taiwanlocation:String, description: String, image: String, latitude: Double, longtitude: Double){
         self.Commonname = Commonname
         self.Scientificname = Scientificname
         self.originlocation = originlocation
         self.taiwanlocation = taiwanlocation
         self.decription = description
         self.image = image
+        self.latitude = latitude
+        self.longtitude = longtitude
     }
     convenience init(){
-        self.init(Commonname:"", Scientificname:"", originlocation:"", taiwanlocation:"", description:"", image:"")
+        self.init(Commonname:"", Scientificname:"", originlocation:"", taiwanlocation:"", description:"", image:"", latitude:0.0, longtitude:0.0)
     }
 }

@@ -10,7 +10,7 @@ import UIKit
 
 class PlantDetailViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -29,6 +29,14 @@ class PlantDetailViewController: UIViewController, UITableViewDataSource, UITabl
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: PlantDescriptionTextCell.self), for: indexPath)as!PlantDescriptionTextCell
             cell.descriptionLabel.text = plant.decription
             return cell
+        case 3:
+             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: PlantDetailSeparatorCell.self), for: indexPath)as!PlantDetailSeparatorCell
+             cell.titleLabel.text = "植物位置"
+             return cell
+        case 4:
+             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: PlantDetailMapCell.self), for: indexPath)as!PlantDetailMapCell
+             cell.configure(plantlatitude: plant.latitude, plantlongitude: plant.longtitude)
+             return cell
         default:
             fatalError("Failed to instantiate the tabel view cell")
         }
@@ -56,6 +64,12 @@ class PlantDetailViewController: UIViewController, UITableViewDataSource, UITabl
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showMap"{
+            let destinationController = segue.destination as! MapViewController
+            destinationController.plant = plant
+        }
+    }
 
     /*
     // MARK: - Navigation
