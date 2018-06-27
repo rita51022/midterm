@@ -12,13 +12,14 @@
   * multiple buttons with a single segue：傳遞資訊
   * class：儲存植物資訊
 
-#### ●分類科別
+#### App內容截圖
+##### * 分類科別
 
 點選科別按鈕就會進入到對應到的植物種類
 
 ![](https://i.imgur.com/aeIiBDH.png)
 
-#### ●詳細介紹
+##### * 詳細介紹
 
 點選植物種類就會進入到植物的詳細介紹
 
