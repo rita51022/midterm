@@ -5,10 +5,6 @@
   
 ### 簡介
 
-<p align="center">
-  <img src="https://i.imgur.com/bfsv4uH.gif/>
-</p>
-
 #### 一個關於台灣植物的App，分四個科別，而各科別有四至六種植物。在每種植物裡有詳細的介紹，且標示發現的地點。
 
 運用Xcode實作，Swift語言撰寫。使用StoryBoard的物件，也開啟內建的地圖功能能夠標示出地理位置座標。
