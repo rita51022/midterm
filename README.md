@@ -5,7 +5,7 @@
 ## 一個關於台灣植物的App，分四個科別，而各科別有四至六種植物。在每種植物裡皆有詳細的介紹，且標示發現的地點。
 
 ### ●分類科別
-[Imgur](https://i.imgur.com/5HgRmmC.png?1)
+![](https://i.imgur.com/5HgRmmC.png?1)
 
 ### ●詳細介紹
-[Imgur](https://i.imgur.com/DRlPYJa.jpg?1)
+![](https://i.imgur.com/DRlPYJa.jpg?1)
