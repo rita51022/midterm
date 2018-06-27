@@ -29,3 +29,7 @@
 點選植物種類就會進入到植物的詳細介紹
 
 ![](https://i.imgur.com/V0Kdfss.jpg)
+
+
+
+![](https://i.imgur.com/bfsv4uH.gifv)
